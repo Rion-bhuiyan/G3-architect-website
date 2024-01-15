@@ -126,3 +126,36 @@ nav li a {
         
     } 
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+ .teams-title{
+    font-size: 3rem; 
+}
+.quick-list{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+.text-features{
+    color: #131313;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.rafi{
+    color: #FF900E;
+    font-weight: 700;
+}
