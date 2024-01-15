@@ -4,3 +4,125 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header style */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    /* padding: 50px 240px; */
+    height: 100%;
+    width: 100%;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700px;
+    color: #131313;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner style */
+.banner-content {
+    /* max-width: 1200px; */
+    /* padding: 200px 530px 70px 530px; */
+    text-align: center;
+    /* margin: 0 auto; */
+    /* margin-left: 215px; */
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-descreption {
+    color: #727272;
+}
+
+.image img{
+    /* padding-left: -100px;
+    padding-right: -200px; */
+    width: 100%;
+    /* height: 100%; */
+    /* flex-shrink: 0; */
+    /* align-items: center; */
+    /* margin-left: 400px; */
+
+}
+.btn{
+    padding: 20px 25px;
+}
+
+.btn-praimary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+   
+
+}
+
+.banner {
+    /* width: 19;
+    height: 1322px; */
+    max-width: 1400px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+
+}
+
+.nav-font {
+    font: 18px;
+}
+/* responsive media quiries */
+/* mobile divices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    /* nav>ul{
+        flex-direction: column;
+    } */
+    
+}
+/* tabket or medium device */
+@media screen and(min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+        
+    } 
+}
